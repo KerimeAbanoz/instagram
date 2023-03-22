@@ -3,7 +3,7 @@ import Footer from "@/comps/Footer";
 import { Inter } from "next/font/google";
 import Nav from "@/comps/Nav";
 import Main from "@/comps/Main";
-import BackToTop from "../comps/BackToTop";
+import ToTop from "../comps/ToTop";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,7 +21,7 @@ export default function Home() {
         <Nav />
         <Main />
         <Footer />
-        <BackToTop />
+        <ToTop />
       </div>
     </>
   );

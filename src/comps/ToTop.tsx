@@ -1,12 +1,11 @@
-import React from "react";
-import BiArrowFromButtom from "react-icons/bi";
 import { useEffect, useState } from "react";
+import { BiArrowFromBottom } from "react-icons/bi";
 
 // const classNames = (...classes) => {
 //   return classes.filter(Boolean).join(" ");
 // };
 
-const BackToTop = () => {
+const ToTop = () => {
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
@@ -33,11 +32,11 @@ const BackToTop = () => {
           className="fixed bottom-[50px] right-[50px] h-[50px] w-[50px] text-[50px] bg-red-600 rounded-full"
           onClick={scrollUp}
         >
-          ^
+          <BiArrowFromBottom/>
         </button>
       )}
     </div>
   );
 };
 
-export default BackToTop;
+export default ToTop;
