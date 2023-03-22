@@ -1,6 +1,10 @@
 import React from "react";
-import BiArrowFromButtom from "react-icons/bi"
+import BiArrowFromButtom from "react-icons/bi";
 import { useEffect, useState } from "react";
+
+// const classNames = (...classes) => {
+//   return classes.filter(Boolean).join(" ");
+// };
 
 const BackToTop = () => {
   const [isVisible, setIsVisible] = useState(false);

@@ -3,7 +3,7 @@ import Footer from "@/comps/Footer";
 import { Inter } from "next/font/google";
 import Nav from "@/comps/Nav";
 import Main from "@/comps/Main";
-import BackToTop from "../comps/BackToTop"
+import BackToTop from "../comps/BackToTop";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,11 +16,12 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
       <div className={inter.className}>
         <Nav />
         <Main />
         <Footer />
-        <BackToTop/>
+        <BackToTop />
       </div>
     </>
   );

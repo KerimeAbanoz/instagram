@@ -13,6 +13,18 @@ html {
   scroll-behavior: smooth !important;
 }
 
+.main {
+    --kt-toolbar-height: 55px;
+    --kt-toolbar-height-tablet-and-mobile: 55px;
+    background-image: url(../../public/header-bg-dark.png);
+    background-repeat: no-repeat;
+    /* background-size: cover */
+    background-size: 100vw 300px;
+    background-attachment: fixed;
+    background-position: center top;
+    
+}
+
 :root {
   --max-width: 1100px;
   --border-radius: 12px;

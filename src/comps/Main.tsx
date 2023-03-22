@@ -9,7 +9,7 @@ import Paketler from "./Paketler";
 
 const Main = () => {
   return (
-    <div className="dark:bg-[#151521] px-4 sm:px-24">
+    <div className="dark:bg-[#151521] px-4 sm:px-24 main">
       <Wellcome />
       {/* takipçi - beğeni - yorum hileleri yazıları */}
       <div className="grid grid-frow-row md:grid-cols-2 xl:grid-cols-3 mb-24">
